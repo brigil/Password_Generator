@@ -39,7 +39,7 @@ function generatePassword() {
   else {
 
     // check if user wants special characters in their password
-    var confirmSpecialChar = confirm("Would you like special characters in your password");
+    var confirmSpecialChar = confirm("Would you like special characters in your password?");
     // if they want it, we will loop it 
     if (confirmSpecialChar) {
       for (var i = 0; i <specialChar.length; i++) {
