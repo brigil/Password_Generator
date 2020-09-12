@@ -17,10 +17,6 @@ body {
   background-color: #f9fbfd;
 }
 
-#generate {
-
-}
-
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -92,25 +88,28 @@ header {
   cursor: pointer;
 }
 
- /* This line is in control of my footer */
- footer {
-    
-    text-align: center;
-    background-color: rgb(159, 96, 96);
-    padding: 10px;
-      clear: both;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      text-align: center;
-      font-size: 16px;
-      color: #cccccc;
-      
-      bottom: 0;
-  }
+button[disabled] {
+  cursor: default;
+  background: #c0c7cf;
+}
 
 .float-right {
   float: right;
 }
 
+footer {
+    
+  text-align: center;
+  background-color: rgb(159, 96, 96);
+  
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: #cccccc;
+    
+    bottom: 0;
+} 
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -149,3 +148,4 @@ header {
     font-size: 0.8rem;
   }
 }
+
